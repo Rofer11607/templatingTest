@@ -1,0 +1,19 @@
+{
+  "name": "templating",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send": "tsc && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.13",
+    "@types/squirrelly": "^7.1.2",
+    "postmark": "^2.8.1",
+    "squirrelly": "^8.0.8"
+  }
+}
